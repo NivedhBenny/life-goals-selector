@@ -4,18 +4,24 @@ body, html {
     height: 100%;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    /* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
 }
+.logo img{
+  width: 500px;
 
+}
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+    background-image: linear-gradient(to right top, #49b339, #00bd76, #00c4a8, #00c7ce, #3fc8e5);
     padding: 20px;
     border-radius: 20px;
     /* margin-left: 20px;
@@ -49,7 +55,10 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+    /* background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%); */
+    /* background-image: linear-gradient(to right top, #bfd16a, #c1d361, #c2d657, #c4d84c, #c6da40); */
+    background-color: F9E2AF;
     padding: 20px;
     border-radius: 20px;
     /* height: 400px;
@@ -156,6 +165,9 @@ button {
         width: 50%;
         background-color: #13547a;
     } */
+     .logo img{
+      width: 460px;
+     }
 }
 
 @media (max-width: 480px) {
@@ -169,6 +181,9 @@ button {
         width: 80%; /* Make button full width on very small screens */
         font-size: 4vm;
     }
+    .logo img{
+      width: 400px;
+     }
 }
 
 /*! for the button in index.html */
