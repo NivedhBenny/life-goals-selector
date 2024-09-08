@@ -101,7 +101,7 @@ button {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .cardset {
-        flex-direction: row; /* Stack cards vertically on smaller screens */
+        flex-direction: column; /* Stack cards vertically on smaller screens */
     }
 
     .card {
