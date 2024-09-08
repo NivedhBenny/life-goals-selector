@@ -5,18 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Life Goals Selector</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+             @media (max-width: 768px) {
+            .playerset {
+                flex-direction: column; /* Stack cards vertically on smaller screens */
+            }
+
+
+            /* .player{
+                width: 50%;
+                background-color: #13547a;
+            } */
+        }
+
+        @media (max-width: 480px) {
+            .playercontainer{
+                width: 80%;
+                padding: 10%;
+            }
+            .player {
+                margin: 10px;
+            }
+            .button-29 {
+                width: 80%; /* Make button full width on very small screens */
+                font-size: 4vm;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="cardset">
-            <div class="card" id="card1">
-                <img src="images/blankcard.jpg" alt="">
+    <div class="playercontainer">
+        <div class="playerset">
+            <div class="player" id="card1">
+                <button class="button-19"><a href="two.html" style="color: white;">Two Players</a></button>
             </div>
-            <div class="card" id="card2">
-                <img src="images/blankcard.jpg" alt="">
+            <div class="player" id="card2">
+                <button class="button-19"><a href="three.html" style="color: white;">Three Players</a></button>
+            </div>
+            <div class="player" id="card2">
+            <button class="button-19"><a href="four.html" style="color: white;">Four Players</a></button>
             </div>
         </div>
-        <button class="button-29" id="changeGoals" role="button">Choose Goals</button>
     </div>
 
     <script src="script.js"></script>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Goals Selector</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 768px) {
+        .cardset {
+            flex-direction: row; /* Stack cards vertically on smaller screens */
+        }
+
+        .card {
+            width: 50%; /* Make cards width responsive on smaller screens */
+            height: auto; /* Adjust height to maintain aspect ratio */
+            /* margin: 10px 0; /*Adjust margin for vertical stacking */
+    ;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cardset">
+            <div class="card" id="card1">
+                <img src="images/blankcard.jpg" alt="">
+            </div>
+            <div class="card" id="card2">
+                <img src="images/blankcard.jpg" alt="">
+            </div>
+        </div>
+        <div class="cardset">
+            <div class="card" id="card3">
+                <img src="images/blankcard.jpg" alt="">
+            </div>
+        </div>
+        <button class="button-29" id="changeGoals" role="button" players="3">Choose Goals</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
